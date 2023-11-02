@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.1">
+  <Form id="Form_Work" height="720" titletext="Form_Work" width="1280">
+    <Layouts>
+      <Layout width="1280" height="720" screenid="Desktop_screen">
+        <Static id="title01" taborder="0" text="인사관리시스템" left="26" top="7" width="214" height="43" onclick="Static00_onclick" font="30px/normal &quot;Gulim&quot;"/>
+        <Div id="Div00" taborder="1" text="Div00" left="45" top="60" width="705" height="40">
+          <Layouts>
+            <Layout>
+              <Static id="Static00" taborder="0" text="사원목록" left="11" top="1" width="135" height="36" font="16px/normal &quot;Gulim&quot;"/>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Div id="Div01" taborder="2" text="Div01" left="26" top="127" width="720" height="43">
+          <Layouts>
+            <Layout>
+              <Radio id="Radio00" taborder="0" left="110" top="7" width="22" height="22" onitemchanged="Div01_Radio00_onitemchanged"/>
+              <Static id="Static00" taborder="1" text="전체" left="141" top="-3" width="57" height="37" font="16px/normal &quot;Gulim&quot;"/>
+              <Static id="Static00_00" taborder="2" text="근무자" left="233" top="-3" width="57" height="37" font="16px/normal &quot;Gulim&quot;" onclick="Div01_Static00_00_onclick"/>
+              <Radio id="Radio00_00" taborder="3" left="202" top="7" width="22" height="22" onitemchanged="Div01_Radio00_00_onitemchanged"/>
+              <Static id="Static00_01" taborder="4" text="퇴사자" left="339" top="-3" width="57" height="37" font="16px/normal &quot;Gulim&quot;"/>
+              <Radio id="Radio00_01" taborder="5" left="308" top="7" width="22" height="22" onitemchanged="Div01_Radio00_01_onitemchanged"/>
+              <Edit id="Edit00" taborder="6" left="414" top="3" width="195" height="31"/>
+              <ImageViewer id="ImageViewer00" taborder="7" text="ImageViewer00" left="621" top="4" width="25" height="28" onclick="Div01_ImageViewer00_onclick"/>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Grid id="Grid00" taborder="3" left="10" top="180" width="830" height="350"/>
+      </Layout>
+    </Layouts>
+    <Script type="xscript5.1"><![CDATA[
+this.Div01_Radio00_onitemchanged = function(obj:nexacro.Radio,e:nexacro.ItemChangeEventInfo)
+{
+	
+};
+
+this.Div01_Radio00_00_onitemchanged = function(obj:nexacro.Radio,e:nexacro.ItemChangeEventInfo)
+{
+	
+};
+
+this.Div01_Radio00_01_onitemchanged = function(obj:nexacro.Radio,e:nexacro.ItemChangeEventInfo)
+{
+	
+};
+
+this.Div01_ImageViewer00_onclick = function(obj:nexacro.ImageViewer,e:nexacro.ClickEventInfo)
+{
+	
+};
+]]></Script>
+  </Form>
+</FDL>
